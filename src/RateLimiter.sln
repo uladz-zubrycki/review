@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8542F3B5-8154-4C8B-94FF-CB80B914FBDE}"
+	ProjectSection(SolutionItems) = preProject
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RateLimiter", "RateLimiter\RateLimiter.csproj", "{D518F962-2C58-4171-AE7A-68738F0F8BA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RateLimiter.Tests", "RateLimiter.Tests\RateLimiter.Tests.csproj", "{B97BF0BA-ACBF-40C9-AF23-7D1E336D66CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D518F962-2C58-4171-AE7A-68738F0F8BA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D518F962-2C58-4171-AE7A-68738F0F8BA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D518F962-2C58-4171-AE7A-68738F0F8BA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D518F962-2C58-4171-AE7A-68738F0F8BA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B97BF0BA-ACBF-40C9-AF23-7D1E336D66CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B97BF0BA-ACBF-40C9-AF23-7D1E336D66CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B97BF0BA-ACBF-40C9-AF23-7D1E336D66CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B97BF0BA-ACBF-40C9-AF23-7D1E336D66CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67D05CB6-8603-4C96-97E5-C6CEFBEC6134}
+	EndGlobalSection
+EndGlobal
